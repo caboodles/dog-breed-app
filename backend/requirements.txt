@@ -3,3 +3,5 @@ Flask-Cors
 pymongo
 python-dotenv
 werkzeug
+torch
+pandas

@@ -2,7 +2,7 @@ import os
 from werkzeug.utils import secure_filename
 from flask import jsonify
 from services.ai_model_service import predict_breed
-from models.breed import Breed
+from webmodels.breed import Breed
 
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
 
